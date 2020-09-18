@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+        <TextView
+        android:id="@+id/managed_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="{machine_info.managedNumber}"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+        <TextView
+        android:id="@+id/machine_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/managed_number"
+        android:textSize="20dp"
+        android:text="{machine_info.machineName}"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+        android:id="@+id/machine_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/machine_name"
+        android:textSize="20dp"
+        android:text="{machine_info.machineNumber}"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:id="@+id/store_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/machine_number"
+            android:textSize="20dp"
+            android:text="{machine_info.storeNumber}"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+</RelativeLayout>

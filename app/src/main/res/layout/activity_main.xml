@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/google_fragment"
+        android:layout_width="433dp"
+        android:layout_height="801dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/page_move_fragment"
+        android:layout_width="772dp"
+        android:layout_height="367dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="437dp"
+        tools:layout_editor_absoluteY="0dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/barcode_fragment"
+        android:layout_width="736dp"
+        android:layout_height="421dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="437dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

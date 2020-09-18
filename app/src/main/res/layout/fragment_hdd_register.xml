@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HDDRegisterFragment">
+
+    <EditText
+        android:id="@+id/hdd_manage_number"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/part_layout"
+        android:textSize="34dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/hdd_number"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/part_layout"
+        android:textSize="34dp"
+        app:layout_constraintStart_toEndOf="@+id/hdd_manage_number"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/maker_name"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/part_layout"
+        android:textSize="34dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hdd_manage_number" />
+
+    <Button
+        android:id="@+id/hdd_info_register_button"
+        android:layout_width="283dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="368dp"
+        android:layout_marginTop="76dp"
+        android:text="登録"
+        android:textSize="34dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maker_name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
