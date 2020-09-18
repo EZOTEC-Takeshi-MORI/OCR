@@ -20,6 +20,7 @@ import com.ezotec.ocr.adapter.SectionsPagerAdapter;
  */
 public class TopActivity extends AppCompatActivity {
 
+    /* コメント追加 */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
